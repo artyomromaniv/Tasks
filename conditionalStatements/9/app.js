@@ -1,13 +1,11 @@
-let a = prompt('Длина стороны a','');
-let b = prompt('Длина стороны b','');
-let c = prompt('Длина стороны c','');
+const a =+(prompt('Длина стороны a'));
+const b =+(prompt('Длина стороны b'));
+const c =+(prompt('Длина стороны c'));
 
-if (a - b == 0  && b-c == 0){
+if (a - b == 0  && b-c == 0) {
 	console.log("Равносторонний");
-}
-else if ( a-b == 0 || b - c == 0 || a - c == 0){
+} else if ( a-b == 0 || b - c == 0 || a - c == 0) {
 	console.log('Равнобедренный');
-}
-else{
+} else{
 	console.log("Разносторонний");
 }

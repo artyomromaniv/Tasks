@@ -1,6 +1,6 @@
-let a =+( prompt('первое число',''));
-let b =+( prompt('второе число',''));
-let c =+( prompt('третье число',''));
+const a =+(prompt('первое число'));
+const b =+(prompt('второе число'));
+const c =+(prompt('третье число'));
 let summa = 0;
 
 if (a > 0) {
@@ -13,4 +13,4 @@ if (c > 0) {
 	summa += c;
 }
 
-console.log( summa );
+console.log(summa);

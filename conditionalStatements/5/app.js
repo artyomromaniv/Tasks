@@ -1,10 +1,9 @@
-let ab=+(prompt('первое число',''));
-let bc=+(prompt('второе число',''));
-let ac=+(prompt('третье число',''));
+const ab=+(prompt('первое число'));
+const bc=+(prompt('второе число'));
+const ac=+(prompt('третье число'));
 
 if (ab + bc >= ac && ab + ac >= bc && bc + ac >= ab) {
     alert('YES');
-}
-else {
+} else {
     alert('NO');
-};
+}
