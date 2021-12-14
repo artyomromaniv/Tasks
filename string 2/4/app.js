@@ -9,6 +9,8 @@ if (str1.slice(string).startsWith(" ") || str1.slice(string).endsWith(" ")) {
 	console.log("Повторений не было");
 }
 
+// У меня не прошел 2 тест. Переделать
+
 
 
 
