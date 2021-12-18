@@ -1,16 +1,12 @@
 const str = prompt("Введите номер");
+let strDone;
 
-for (let i = 4; i < str.length; i++) {
-	if (str.startsWith("+375") && (str.charCodeAt(i) >= 48 && str.charCodeAt(i) <= 57)) {
-		console.log("Звоним...");
+for (let i = 1; i < str.length; i++) {
+	if (str.startsWith("+") && str.indexOf(3) == 1 && str.indexOf(7) == 2 && str.indexOf(5) == 3 && (str.charCodeAt(i) >= 48 && str.charCodeAt(i) <= 57)) {
+		strDone = "Звоним...";
 	} else {
-		console.log("Некорректный номер");
+		strDone = "Некорректный номер";
 	}
 }
+console.log(strDone);
 
-
-
-
-//	((str.charCodeAt(i) >= 65 && str.charCodeAt(i) < 91)
-//		|| (str.charCodeAt(i) >= 97 && str.charCodeAt(i) < 123)))
-//&& str.startsWith("+375")
