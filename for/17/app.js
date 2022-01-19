@@ -14,6 +14,8 @@ for (let a = 0; a < arr.length; a++) {
 		|| (arr[a].toString().startsWith("2"))
 		|| (arr[a].toString().startsWith("5"))) {
 		console.log(arr[a])
+	} else {
+		console.log("В массиве нет элементов, которые начинаются на 1, 2, 5")
 	}
 }
 
